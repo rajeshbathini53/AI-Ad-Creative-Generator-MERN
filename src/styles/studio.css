@@ -70,7 +70,7 @@ body {
 }
 
 .bg {
-  width: 900px;
+  width: 720px;
   border-radius: 12px;
 }
 
@@ -79,9 +79,8 @@ body {
   top: 50px;
   color: white;
   cursor: move;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;     
-  font-weight: bold;
 }
 
 .cta {

@@ -7,6 +7,7 @@ export default function Toolbar({
   setHeadlineSize,
   ctaSize,
   setCtaSize,
+  generate,
   download
 }) {
   return (
@@ -46,6 +47,8 @@ export default function Toolbar({
         value={ctaSize}
         onChange={(e) => setCtaSize(e.target.value)}
       />
+      <button onClick={generate}>Generate</button>
+
 
       <button onClick={download}>Download</button>
     </div>
